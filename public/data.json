@@ -1,0 +1,79 @@
+{
+    "maxCount": 4,
+    "tiles": [
+      [
+        {
+          "colorName": "Blue",
+          "colorCode": "#008eff"
+        },
+        {
+          "colorName": "Green",
+          "colorCode": "#51ff58"
+        },
+        {
+          "colorName": "Yellow",
+          "colorCode": "#ffda00"
+        },
+        {
+          "colorName": "Red",
+          "colorCode": "#ea3838"
+        }
+      ],
+      [
+        {
+          "colorName": "Red",
+          "colorCode": "#ea3838"
+        },
+        {
+          "colorName": "Yellow",
+          "colorCode": "#ffda00"
+        }
+      ],
+      [
+        {
+          "colorName": "Blue",
+          "colorCode": "#008eff"
+        },
+        {
+          "colorName": "Green",
+          "colorCode": "#51ff58"
+        },
+        {
+          "colorName": "Blue",
+          "colorCode": "#008eff"
+        }
+      ],
+      [
+        {
+          "colorName": "Yellow",
+          "colorCode": "#ffda00"
+        },
+        {
+          "colorName": "Red",
+          "colorCode": "#ea3838"
+        },
+        {
+          "colorName": "Green",
+          "colorCode": "#51ff58"
+        }
+      ],
+      [
+        {
+          "colorName": "Green",
+          "colorCode": "#51ff58"
+        },
+        {
+          "colorName": "Red",
+          "colorCode": "#ea3838"
+        },
+        {
+          "colorName": "Yellow",
+          "colorCode": "#ffda00"
+        },
+        {
+          "colorName": "Blue",
+          "colorCode": "#008eff"
+        }
+      ]
+    ]
+  }
