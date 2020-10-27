@@ -108,36 +108,6 @@ const Game = (props) => {
           colorBlind={{ state: colorBlind, callback: toggleColorBlindMode }}
         />
       </div>
-      {/* <div className="game-info-panel">
-
-        {finished ? (
-          <>
-            <img alt="Pog" src="Pog.png" title="Pog"></img>
-            <div>You won!</div>
-            <div>Total Steps: {step}</div>
-            <div>
-              <button onClick={handleReset}>Play Again</button>
-            </div>
-          </>
-        ) : (
-          <>
-            <div>Step: {step}</div>
-            <div>
-              <input
-                id="colorBlind"
-                name="colorBlind"
-                type="checkbox"
-                checked={colorBlind}
-                onChange={toggleColorBlindMode}
-              />{" "}
-              <label htmlFor="colorBlind">Color Blind Mode</label>
-            </div>
-            <div>
-              <button onClick={handleReset}>Reset</button>
-            </div>
-          </>
-        )}
-      </div> */}
       {!finished && (
         <div
           className="tile-selected-container"
@@ -148,7 +118,6 @@ const Game = (props) => {
           )}
         </div>
       )}
-
       <div className="game-container">
         {data &&
           data.map((tiles, i) => (
