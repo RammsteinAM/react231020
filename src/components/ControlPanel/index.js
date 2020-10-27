@@ -14,7 +14,7 @@ const ControlPanel = (props) => {
         <label htmlFor="colorBlind">Color Blind Mode</label>
       </div>
       <div>
-        <button onClick={props.onReset}>
+        <button onClick={props.onReset} disabled={props.resetDisabled} className={props.resetDisabled ? "disabled" : ""}>
           {props.isFinished ? "Play Again" : "Reset"}
         </button>
       </div>

@@ -93,6 +93,7 @@ body,
   align-items: flex-end;
   height: 120px;
 }
+
 .game-panel-container button {
   background-color: #464646;
   border: 1px solid #8e8e8e;
@@ -101,6 +102,12 @@ body,
   border-radius: 8px;
   color: white;
   cursor: pointer;
+}
+
+.game-panel-container button.disabled {
+  background-color: #8a8a8a;
+  cursor: default;
+  pointer-events: none;
 }
 
 .game-panel-container button:hover {

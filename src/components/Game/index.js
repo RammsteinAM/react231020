@@ -103,9 +103,10 @@ const Game = (props) => {
           stepCount={step}
         />
         <ControlPanel
-          onReset={handleReset}
           isFinished={finished}
           colorBlind={{ state: colorBlind, callback: toggleColorBlindMode }}
+          onReset={handleReset}
+          resetDisabled={step === 0}
         />
       </div>
       {!finished && (
